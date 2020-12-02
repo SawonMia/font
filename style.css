@@ -1,0 +1,43 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: tahoma;
+}
+.about{
+	width: 300px;
+	height: 500px;
+	margin: 30px auto 0px;
+	background-color: olivedrab;
+	
+}
+.about img{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	display: block;
+	margin:auto;
+}
+.about h2, h3{
+	text-align: center;
+}
+.about h4{
+	margin: 8px 0px 0px 50px;
+	color: hsl;
+	font-weight: unset;
+}
+.about ul{
+	list-style: none;
+	text-align: center;
+	margin: 34px auto;
+	font-size: 30px;
+	padding: 2px 1px;
+
+}
+.about ul li{
+	display: inline;
+	padding: 0px 5px;
+	transition: .9s;
+}
+.about ul li a{
+	color: aliceblue;
+}
